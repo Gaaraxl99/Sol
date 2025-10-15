@@ -1,0 +1,23 @@
+# Variables y condicionales
+texto nombre = "Lucas"
+entero edad = 15
+
+mostrar "Hola ", nombre
+
+si edad >= 18 entonces
+    mostrar "Eres mayor de edad"
+sino
+    mostrar "Eres menor de edad"
+fin
+
+# Listas y bucles
+lista frutas = ["manzana", "pera", "uva"]
+agregar(frutas, "kiwi")
+
+para f en frutas hacer
+    mostrar "-> ", f
+fin
+
+# Diccionarios
+diccionario persona = {"nombre": "Ana", "edad": 21, "activo": verdadero}
+mostrar "Nombre: ", persona["nombre"]
